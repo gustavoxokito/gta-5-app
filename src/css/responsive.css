@@ -57,7 +57,22 @@
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 420px){
+
+    .home .informacoes .btn-comprar{
+       margin: 50px;
+       width: 90%;
+
+    }
+
+    .home .informacoes .lista-de-jogos{
+        max-width: 40%;
+    }
+
+    .home .informacoes {
+        align-items: center;
+        padding: 60px;
+    }
     main::after{
         background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
     }
